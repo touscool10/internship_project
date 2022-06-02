@@ -1,0 +1,18 @@
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: fit-content;
+}
+
+h3 {
+  margin-left: 10px;
+}
+
+.client {
+  width: 30vw;
+  height: 22vh;
+  margin: 10px;
+  border: solid;
+  border-color: #dddddd5b;
+  background-color: #bebebe5b;
+}
