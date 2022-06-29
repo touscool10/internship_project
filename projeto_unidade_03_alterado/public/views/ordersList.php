@@ -110,6 +110,10 @@ elseif(isset($_GET["clienteID"])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedidos</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css/orders.css">
 
@@ -121,7 +125,9 @@ elseif(isset($_GET["clienteID"])) {
     </header>
 
     <main>
+
         <?php include_once("../include/navbar.php"); ?>
+
         <section class="content">
             <div class="contentTitle">
                 <div class="seta-esq">
@@ -213,6 +219,16 @@ elseif(isset($_GET["clienteID"])) {
                             <p>Adicionar Pedido</p>
                         </a>
                     </div>
+
+
+                    <button onclick="execute()"    
+                        class="btn btn-success"
+                    >MEU Botao</button>
+
+
+                    <div id="alerta"  style="display: none" class="alert alert-danger" role="alert">
+                        SENHA ERRADA!!!
+                    </div>
                 </div>                
 
             </div>
@@ -222,6 +238,17 @@ elseif(isset($_GET["clienteID"])) {
     <footer>
         <?php include_once("../include/footer.php"); ?>
     </footer>
+
+<script>
+
+function execute() {
+    let botao = document.getElementById('alerta');
+                            console.log(botao);
+                            botao.style.display = 'block'; 
+}
+
+</script>
+
 </body>
 </html>
 <?php

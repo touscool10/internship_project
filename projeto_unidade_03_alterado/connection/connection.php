@@ -1,8 +1,8 @@
 <?php
 // Stabilish connection
     $server = "localhost";
-    $user = "root";
-    $password = "";
+    $user = "crespin";
+    $password = "18501405";
     $database = "andes";
     $connection = mysqli_connect($server,$user,$password,$database);
 

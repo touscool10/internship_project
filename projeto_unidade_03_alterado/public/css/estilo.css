@@ -48,12 +48,12 @@ div#header_saudacao h5 {
 
 nav {
     position: fixed;
-    top: 68px;
+    top: 200px;
     height: 100%;
-    width: 160px;
+    width: 200px;
     padding: 10px;
     background-color: #f5f3d4;
-  }
+  } 
   
 nav ul{
     list-style-type: none;
@@ -61,13 +61,14 @@ nav ul{
 }
 
 nav ul li{
-    margin-top: 15px;
-}
+    margin-top: 50px;
+} 
 
 nav ul li a{
     text-decoration: none;
-    color: #3d3d3d;
-}
+    color: red;
+    font-size: xx-large;
+} 
   
 main {
     display: grid;

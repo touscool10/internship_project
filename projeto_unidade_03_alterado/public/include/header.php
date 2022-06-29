@@ -17,7 +17,7 @@
         ?>
                 <div id="header_saudacao">
                     <h5>Seja bem vindo, <?php echo $nome ?> |  <a href="logout.php">Sair</a></h5>
-                </div>
+                </div>  
         <?php
         }
         ?>

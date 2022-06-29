@@ -57,7 +57,7 @@ h3 {
 .order {
     max-width:  30vw;
     margin: 10px auto 10px auto;
-    border: solid;
+    border: solid ;
     border-color: #dddddd5b;
     background-color: #bebebe5b;
 }

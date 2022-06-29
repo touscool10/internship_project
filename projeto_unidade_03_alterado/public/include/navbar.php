@@ -1,5 +1,6 @@
 <nav>
-    <div class="navbar">
+    <!--<div class="navbar"> -->
+    <div >
         <ul>
             <li><a href="clientList.php">Clientes</a></li>
             <li><a href="ordersList.php">Pedidos</a></li>
