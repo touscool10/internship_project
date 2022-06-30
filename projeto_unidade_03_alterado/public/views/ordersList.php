@@ -245,6 +245,11 @@ function execute() {
     let botao = document.getElementById('alerta');
                             console.log(botao);
                             botao.style.display = 'block'; 
+    
+    setTimeout(function(){ 
+        botao.style.display = 'none'; 
+    }, 3000);
+
 }
 
 </script>
